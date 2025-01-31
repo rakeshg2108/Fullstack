@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: lightgray;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .box {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+        }
+        footer { 
+            text-align: center;
+            padding: 10px;
+            background: black;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .image {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Welcome to My Website</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <article class="box">
+            <h2>About Us</h2>
+            <p>Welcome to our website! We are dedicated to providing the best services to our customers. Learn more about our journey and values. Here is a word with a <strong>highlight</strong> effect.</p>
+            <figure class="image">
+                <img src="https://vtricks.in/lms/public/frontend/infixlmstheme/img/blog/full-stack-web-development.jpg" alt="Full Stack Development">
+                <figcaption>Our Team at Work</figcaption>
+            </figure>
+        </article>
+
+        <aside class="box">
+            <h2>Latest News</h2>
+            <p>Check out our latest updates on the website.</p>
+        </aside>
+    </main>
+
+    <footer>&copy; 2024 My Website | All Rights Reserved</footer>
+
+</body>
+</html>
